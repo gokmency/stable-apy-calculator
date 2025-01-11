@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('https://www.binance.com/static/fonts/BinancePlex-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('https://www.binance.com/static/fonts/BinancePlex-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('https://www.binance.com/static/fonts/BinancePlex-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'BinancePlex', sans-serif;
+}
